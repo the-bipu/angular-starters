@@ -1,0 +1,39 @@
+.main--div {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.secondary--div {
+    width: 80%;
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.route--list {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tabs--title {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
