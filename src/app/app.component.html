@@ -1,35 +1,36 @@
 <div class="main--div">
-  <div class="secondary--div">
+
+  <nav class="secondary--div">
     <div>Logo</div>
     <div class="route--list">
-      <p class="tabs--title">Home</p>
-      <p class="tabs--title">About</p>
-      <p class="tabs--title">Experience</p>
-      <p class="tabs--title">Gallery</p>
-      <p class="tabs--title">Contact</p>
+      <div class="tabs--title">
+        <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+          Home
+        </a>
+      </div>
+      <div class="tabs--title">
+        <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">
+          About
+        </a>
+      </div>
+      <div class="tabs--title">
+        <a routerLink="/experience" routerLinkActive="active" ariaCurrentWhenActive="page">
+          Experience
+        </a>
+      </div>
+      <div class="tabs--title">
+        <a routerLink="/gallery" routerLinkActive="active" ariaCurrentWhenActive="page">
+          Gallery
+        </a>
+      </div>
+      <div class="tabs--title">
+        <a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">
+          Contact
+        </a>
+      </div>
     </div>
-  </div>
-</div>
+  </nav>
 
-<nav>
-  <ul>
-    <li>
-      <a
-        routerLink="/contact-component"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Contact Component</a
-      >
-    </li>
-    <li>
-      <a
-        routerLink="/about-component"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >About Component</a
-      >
-    </li>
-  </ul>
-</nav>
+</div>
 
 <router-outlet></router-outlet>

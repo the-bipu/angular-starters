@@ -37,3 +37,10 @@
     padding: 0;
     cursor: pointer;
 }
+
+.tabs--title a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 400;
+    cursor: pointer;
+}
